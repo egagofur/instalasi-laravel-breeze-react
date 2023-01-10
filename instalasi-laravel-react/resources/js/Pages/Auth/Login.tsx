@@ -36,7 +36,6 @@ export default function Login({ status, canResetPassword }: Props) {
 
   const submit = (e: React.FormEvent) => {
     e.preventDefault();
-
     post(route("login"));
   };
 
